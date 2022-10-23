@@ -1,42 +1,19 @@
-Début
-variable n:entier
+```
+nombre <- 0
 
-
-ecrire("entrer n")
-lire(n)
-
-
-pour(i=1 à n)
-
-si ((modulo(n,3)et(n,5)=0))
-
-alors 
-    ecrire("FizzBuzz")
-
-    finsi
-
-si((modulo(n,3)=0))
-
-alors 
-    ecrire("Fizz")
+pour nombre de 0 à 100 par pas de 1 faire
+    si modulo(nombre, 3) est égale à 0 et si modulo(nombre, 5) est égale à 0
+        Ecrire Fizzbuzz
+        
+    si modulo(nombre, 3) est égale à 0
+        Alors Ecrire Fizz
     
-    finsi
+    si modulo(nombre, 3) est égale à 0
+        Alors Ecrire Buzz
+    sinon 
+        Ecrire nombre
 
-si((modulo(n,5)=0))
-
-alors 
-    ecrire("Buzz")
-
-    finsi
-    
-sinon 
-ecrire("affichier",n)
-
-
-
-fin pour 
-fin 
-
+```
 
 
 
