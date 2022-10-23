@@ -1,30 +1,18 @@
 variable N : entier ;
 
-Variable i,j,k : entier;
+Variable i,j: entier;
 
  Début
 
-Ecrire ("donner L");
-
-lire(L);
-
 pour i=1 à N
+
      pour j=1 à i
 
 Ecrire ("#");
 
      fin pour
 
-   si( n-i >= 1)
-   
-        pour k=n-i à 1
-           ecrire(" ")
-   
-         fin pour
-   finsi
-
-
-        Ecrire (" \n")
+      Ecrire ("\n")
 
 fin pour
 
